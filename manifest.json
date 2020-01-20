@@ -1,0 +1,15 @@
+{
+  "name": "Youtube Block",
+  "version": "0.0.1",
+  "description": "",
+  "manifest_version": 2,
+  "author": "Cheng-Wei Hu",
+  "permissions": ["storage", "activeTab", "declarativeContent", "https://www.youtube.com/"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/"],
+      "run_at": "document_start",
+      "js": ["block.js"]
+    }
+  ]
+}
