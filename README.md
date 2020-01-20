@@ -1,1 +1,1 @@
-# youtube-block
+# Homepage Eradicator for YouTube

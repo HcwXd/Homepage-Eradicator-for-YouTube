@@ -1,7 +1,7 @@
 {
-  "name": "Youtube Block",
+  "name": "Homepage Eradicator for YouTube",
   "version": "0.0.1",
-  "description": "",
+  "description": "Find yourself spending too much time on YouTube? Eradicate distractions by removing the video recommendation on Youtube homepage",
   "manifest_version": 2,
   "author": "Cheng-Wei Hu",
   "permissions": ["storage", "activeTab", "declarativeContent", "https://www.youtube.com/"],
